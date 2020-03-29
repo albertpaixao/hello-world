@@ -1,0 +1,51 @@
+* {
+  font-family: 'Sen', sans-serif;
+}
+
+h1 {
+  font-size: 3.6rem;
+  font-weight: 800;
+  margin-bottom: 0rem;
+  color: black;
+}
+
+h2 {
+  font-size: 1.8rem;
+  letter-spacing: 1.25rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 0rem;
+  color: grey;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: white;
+  background-color: grey;
+  padding-left: 1rem;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1rem;
+  letter-spacing: .05rem;
+  line-height: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a :hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+li {
+  margin-top: .75rem;
+}
+/*# sourceMappingURL=typography.css.map */
