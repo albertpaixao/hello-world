@@ -1,0 +1,44 @@
+.mes, .dia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 98vw;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.mes div, .dia div {
+  margin: auto;
+}
+
+.mes ul, .dia ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mes li, .dia li {
+  list-style: none;
+  margin: 1rem;
+}
+
+.mes a, .dia a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.selected {
+  font-weight: 800;
+}
+/*# sourceMappingURL=main.css.map */
